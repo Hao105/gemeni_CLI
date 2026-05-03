@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# PChome Scraper Reports & Images
+pchome_report/
+pchome_daily_report/
+pchome_promotions.csv
+mcdonalds_final_export.csv
+mcdonalds_reviews.csv
+
+# Playwright
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# Gemini CLI & Skills
+*.skill
+.gemini/tmp/
+.gemini/logs/
+
+# Debugging and Snapshots
+*.png
+page_dump.txt
+
+# Environment variables & Secrets
+.env
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
+Thumbs.db
